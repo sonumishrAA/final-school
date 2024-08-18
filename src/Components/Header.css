@@ -1,0 +1,120 @@
+.header1 {
+  margin-top: 15px;
+  /* border: 2px solid red; */
+  width: 90%;
+  height: 150px;
+  background-color: rgb(1, 107, 124);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* margin: 0px auto; */
+  /* border: 2px solid red; */
+  height: 150px;
+  background-color: rgb(1, 107, 124);
+}
+.box11 {
+  margin: 0px auto;
+  margin-top: 10px;
+  height: 120px;
+  width: 120px;
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  background-image: url("..//assets/logo.png");
+  background-size: cover; /* Adjusts the size of the background image to cover the entire div */
+  background-position: center; /* Centers the background image within the div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.box1 {
+  float: right;
+  /* border: 1px solid red; */
+  height: 150px;
+  width: 200px;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  /* /* flex-wrap: wrap; */
+  height: 150px;
+  text-align: center;
+  padding-top: 5px;
+  /* height: 50px; */
+  width: 700px;
+  /* border: 2px solid rgb(239, 0, 0); */
+  margin: 0px;
+}
+.box3 {
+  height: 150px;
+  width: 200px;
+  /* border: 2px solid red; */
+  padding-top: 10px;
+}
+.school-name {
+  margin: 0px;
+  padding: 0px;
+  /* height: 50px; */
+  /* border: 2px solid red; */
+  font-size: 3.1rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 1px 1px 0 #ccc, 1.4px 1.4px 0 #bbb, 1.8px 1.8px 0 #aaa,
+    2.4px 2.4px 0 #999, 2.8px 2.8px 0 #888, 3px 3px 0 #777;
+}
+.school-affiliate {
+  font-size: 1.4rem;
+
+  margin: 0px;
+  padding: 0px;
+  height: 50px;
+  /* border: 2px solid red; */
+  color: white;
+}
+.school-iso {
+  width: 86%;
+  font-size: 1.4rem;
+  margin: 0px;
+  padding: 0px;
+  /* height: 50px; */
+  color: rgb(237, 249, 0);
+  /* border: 2px solid red; */
+}
+.contact {
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px solid red; */
+  text-align: right;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+.icons {
+  float: right;
+  /* border: 2px solid red; */
+  height: 50px;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon {
+  /* border: 2px solid red; */
+  width: 30px;
+  height: 30px;
+  /* background-color: white; */
+}
+.icon11 {
+  scale: 1.8;
+  color: black;
+}
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
